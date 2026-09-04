@@ -7,12 +7,9 @@ author_profile: true
 ---
 
 {% include base_path %}
-{% include group-by-array collection=site.publications field="year" %}
 
-{% for year in group_names %}
-  {% assign items = group_by_year[year] %}
-  <h2 class="archive__item-title">{{ year }}</h2>
-  {% for item in items %}
-    {% include archive-single.html %}
-  {% endfor %}
+{% assign publications = site.publications | sort: 'date' | reverse %}
+
+{% for item in publications %}
+  {% include archive-single.html %}
 {% endfor %}
