@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8edf3"/>
+      <stop offset="100%" style="stop-color:#c5d0df"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2b2420"/>
+      <stop offset="100%" style="stop-color:#1a1512"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3a7bc8"/>
+      <stop offset="100%" style="stop-color:#255a96"/>
+    </linearGradient>
+    <linearGradient id="face" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f7d9b7"/>
+      <stop offset="100%" style="stop-color:#e6b995"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" rx="60" fill="url(#bg)"/>
+  <circle cx="150" cy="210" r="95" fill="url(#shirt)"/>
+  <circle cx="150" cy="125" r="62" fill="url(#face)"/>
+  <circle cx="123" cy="121" r="10" fill="#3d2b1f"/>
+  <circle cx="177" cy="121" r="10" fill="#3d2b1f"/>
+  <path d="M 135 148 Q 150 160 165 148 L 160 153 Q 150 162 140 153 Z" fill="#c97b6c"/>
+  <path d="M 150 58 A 62 62 0 0 1 208 100 A 64 52 0 0 0 150 74 A 64 52 0 0 0 92 100 A 62 62 0 0 1 150 58 Z" fill="url(#hair)"/>
+  <ellipse cx="150" cy="102" rx="18" ry="8" fill="#3a7bc8" opacity="0.5"/>
+  <path d="M 108 178 Q 150 205 192 178 L 192 210 A 42 42 0 0 1 150 245 A 42 42 0 0 1 108 210 Z" fill="#fffdf8"/>
+</svg>
